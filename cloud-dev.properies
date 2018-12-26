@@ -9,4 +9,4 @@ eureka.client.serviceUrl.defaultZone=http://localhost:20000/eureka/
 eureka.server.enable-self-preservation=false
 eureka.server.eviction-interval-timer-in-ms=4000
 
-vesion:dev
+vesion=dev
