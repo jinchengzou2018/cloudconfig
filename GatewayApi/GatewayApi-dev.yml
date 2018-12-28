@@ -31,6 +31,6 @@ security:
       user-info-uri: http://localhosty/user
       prefer-token-info: false
       service-id: cloud-gateway
-  excludeUrls: # 排除地址
+  excludeUrls: 
     - /api/auth/**
 
