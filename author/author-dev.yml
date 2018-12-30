@@ -1,3 +1,7 @@
+spring:
+ application:
+  name: cloud-author
+
 server:
   port: 5005
 
