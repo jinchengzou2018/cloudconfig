@@ -1,0 +1,8 @@
+server:
+  port: 5005
+
+security:
+  oauth2:
+    clientId: cloud
+    clientSecret: cloud
+    scope: webapp
