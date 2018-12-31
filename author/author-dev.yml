@@ -4,7 +4,23 @@ spring:
 
 server:
   port: 5005
-
+  
+  datasource:
+    url: jdbc:mysql://localhost:3306/mxcg_cloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+    username: root
+    password: "root"
+    driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+        minIdle: 10
+        idle-timeout: 10000
+        maximumPoolSize: 30
+  jpa:
+    database:MYSQL
+    show-sql:true
+    hibernate.ddl-auto:validate
+    naming-strategy:org.hibernate.cfg.ImprovedNamingStrategy
+    spring.jpa.properties.hibernate.dialect:org.hibernate.dialect.MySQL5Dialect
+    open-in-view:true
 security:
   oauth2:
     clientId: cloud
