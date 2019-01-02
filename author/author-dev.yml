@@ -19,7 +19,7 @@ server:
     database-platform: org.hibernate.dialect.MySQL5Dialect
     show-sql: true
     hibernate: 
-      ddl-auto: update
+    ddl-auto: update
 security:
   oauth2:
     clientId: cloud
