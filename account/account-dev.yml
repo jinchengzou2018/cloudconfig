@@ -13,8 +13,11 @@ spring:
     idle-timeout: 10000
     maximumPoolSize: 30
   jpa:
-    database: MYSQL
-    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: create-drop
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
     show-sql: true
-    hibernate: 
-    ddl-auto: update
