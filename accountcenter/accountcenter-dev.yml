@@ -1,0 +1,27 @@
+spring:
+ application:
+  name: cloud-account
+
+server:
+  port: 5004
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mxcg_cloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  hikari:
+    minIdle: 10
+    idle-timeout: 10000
+    maximumPoolSize: 30
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
