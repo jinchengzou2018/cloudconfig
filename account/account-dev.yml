@@ -25,3 +25,8 @@ server:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
     show-sql: true
+security:
+  oauth2:
+    clientId: cloud
+    clientSecret: cloud
+    scope: webapp
