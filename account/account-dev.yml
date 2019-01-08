@@ -1,9 +1,9 @@
-
+server:
+  port: 5004
 spring:
   application:
     name: cloud-account
-server:
-  port: 5004
+
 
   datasource:
     url: jdbc:mysql://localhost:3306/mxcg_cloud?useSSL=false&amp;characterEncoding=utf-8
