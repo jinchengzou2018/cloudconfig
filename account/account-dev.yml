@@ -6,7 +6,7 @@ server:
   port: 5004
 
   datasource:
-    url: jdbc:mysql://localhost:3306/mxcg_cloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=true
+    url: jdbc:mysql://localhost:3306/mxcg_cloud??useSSL=false&amp;characterEncoding=utf-8
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
