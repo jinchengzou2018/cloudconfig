@@ -4,6 +4,8 @@ server:
 
 
 spring:
+  profiles:
+    active:dev
   application:
     name:cloud-account
   datasource:
