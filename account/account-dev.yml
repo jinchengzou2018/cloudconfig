@@ -5,6 +5,7 @@ server:
 spring:
  application:
   name: cloud-account
+spring:
   datasource:
     url: jdbc:mysql://localhost:3306/mxcg_cloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
     username: root
