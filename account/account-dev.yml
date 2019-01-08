@@ -1,6 +1,9 @@
+spring:
+ application:
+  name: cloud-account
+
 server:
   port: 5004
-  name: cloud-account
 
 spring:
   datasource:
