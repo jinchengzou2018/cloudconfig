@@ -1,6 +1,4 @@
-
 spring:
- profile:
   application:
    name: cloud-account
   
