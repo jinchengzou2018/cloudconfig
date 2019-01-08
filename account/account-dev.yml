@@ -1,6 +1,3 @@
-spring:
- application:
-  name: cloud-account
 
 server:
   port: 5004
