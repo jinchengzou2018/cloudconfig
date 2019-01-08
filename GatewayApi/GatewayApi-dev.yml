@@ -33,7 +33,7 @@ security:
   oauth2:
     resource:
       loadBalanced: true # 负载均衡
-      user-info-uri: http://localhosty/user
+      user-info-uri: http://localhost/user
       prefer-token-info: false
       service-id: cloud-gateway
   excludeUrls: 
