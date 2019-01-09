@@ -12,11 +12,11 @@ zuul:
   prefix: /api
   # 路由转发规则
   routes:
-    account:
+    cloud-account:
       path: /uc/**
       sensitiveHeaders:
       service-id: cloud-account
-    author:
+    cloud-author:
       path: /auth/**
       sensitiveHeaders:
       service-id: cloud-author
