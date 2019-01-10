@@ -4,7 +4,7 @@ spring:
   
 server:
   port: 5005
-logging.level.org.springframework.security: DEBUG
+
 
   datasource:
     url: jdbc:mysql://localhost:3306/mxcg_cloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
@@ -23,7 +23,7 @@ logging.level.org.springframework.security: DEBUG
     ddl-auto: update
 
 
-
+logging.level.org.springframework.security: DEBUG
 security:
   oauth2:
     clientId: cloud
