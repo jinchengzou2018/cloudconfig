@@ -23,7 +23,7 @@ server:
     ddl-auto: update
 
 
-logging.level.org.springframework.security: DEBUG
+logging.level.org.springframework.security: TRACE
 security:
   oauth2:
     clientId: cloud
