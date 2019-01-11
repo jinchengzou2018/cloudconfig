@@ -24,4 +24,4 @@ spring:
         dialect: org.hibernate.dialect.MySQL5Dialect
     show-sql: true
 
-logging.level.org.springframework.security: TRACE
+logging.level.org.springframework.security: DEBUG
