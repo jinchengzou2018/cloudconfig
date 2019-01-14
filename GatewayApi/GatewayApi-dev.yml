@@ -39,5 +39,4 @@ security:
       service-id: cloud-gateway
   excludeUrls: 
     - /api/auth/**
-    - /api/uc/**
 logging.level.org.springframework.security: TRACE
