@@ -15,12 +15,7 @@ server:
         minIdle: 10
         idle-timeout: 10000
         maximumPoolSize: 30
-  jpa:
-    database: MYSQL
-    database-platform: org.hibernate.dialect.MySQL5Dialect
-    show-sql: true
-    hibernate: 
-    ddl-auto: update
+ 
 
 
 logging.level.org.springframework.security: DEBUG
