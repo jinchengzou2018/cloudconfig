@@ -5,14 +5,12 @@ spring:
     name: cloud-account
 
 
-  datasource:
-    url: jdbc:mysql://localhost:3306/mxcg_cloud?useSSL=false&amp;characterEncoding=utf-8
-    username: root
-    password: root
-    driver-class-name: com.mysql.jdbc.Driver
-  hikari:
-    minIdle: 10
-    idle-timeout: 10000
-    maximumPoolSize: 30
+persistence:
+  mybatis:
+    jdbc:
+      driver: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/mxcg_cloud?useUnicode=true&characterEncoding=utf8&useSSL=false
+      username: root
+       password: root
 
 logging.level.org.springframework.security: DEBUG
