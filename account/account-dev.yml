@@ -11,11 +11,9 @@ persistence:
       url: jdbc:mysql://localhost:3306/mxcg_cloud?useUnicode=true&characterEncoding=utf8&useSSL=false
       username: root
       password: root
-mybatis-plus:
-  global-config:
-    id-type:0
-    dbColumnUnderline:true
-    isCapitalMode:true
+mybatis-plus.global-config.id-type:0
+mybatis-plus.global-config.dbColumnUnderline:true
+mybatis-plus.global-config.isCapitalMode:true
  
 
 logging.level.org.springframework.security: DEBUG
