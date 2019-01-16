@@ -13,9 +13,9 @@ persistence:
       password: root
 mybatis-plus:
   global-config:
-    id-type:0
-    dbColumnUnderline:true
-    isCapitalMode:true
+                id-type:0
+                dbColumnUnderline:true
+                isCapitalMode:true
  
 
 logging.level.org.springframework.security: DEBUG
