@@ -5,12 +5,11 @@ spring:
     name: cloud-account
 
 
-persistence:
-  mybatis:
-    jdbc:
-      driver: com.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/mxcg_cloud?useUnicode=true&characterEncoding=utf8&useSSL=false
-      username: root
-       password: root
+mybatis:
+  jdbc:
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mxcg_cloud?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
 
 logging.level.org.springframework.security: DEBUG
