@@ -11,6 +11,9 @@ persistence:
       url: jdbc:mysql://localhost:3306/mxcg_cloud?useUnicode=true&characterEncoding=utf8&useSSL=false
       username: root
       password: root
-
+    plusConfig：
+      idType：0
+      dbColumnUnderline:true
+      isCapitalMode:true
 
 logging.level.org.springframework.security: DEBUG
