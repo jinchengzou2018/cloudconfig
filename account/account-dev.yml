@@ -12,9 +12,6 @@ persistence:
       username: root
       password: root
       
-   plusConfig:
-     idType:0
-     dbColumnUnderline:true
-     isCapitalMode:true
+ 
 
 logging.level.org.springframework.security: DEBUG
