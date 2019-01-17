@@ -11,22 +11,5 @@ persistence:
       url: jdbc:mysql://localhost:3306/mxcg_cloud?useUnicode=true&characterEncoding=utf8&useSSL=false
       username: root
       password: root
-   druid:
-      initialsize: 0
-      minIdle: 1
-      maxActive: 50
-      maxWait:  60000
-      timeBetweenEvictionRunsMillis:  60000
-      minEvictableIdleTimeMillis: 300000
-      validationQuery:  SELECT 'x'
-      testWhileIdle:  true
-      testOnBorrow: false
-      testOnReturn: false
-      poolPreparedStatements: false
-      maxPoolPreparedStatementPerConnectionSize:  20
-      filters:  wall,stat
-    plusConfig:
-        idType: 0
-        dbColumnUnderline:  true
-        isCapitalMode:  true
+  
 logging.level.org.springframework.security: DEBUG
