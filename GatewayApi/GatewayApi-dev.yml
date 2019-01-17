@@ -13,7 +13,7 @@ zuul:
   # 路由转发规则
   routes:
     cloud-account:
-      path: /uc/uc/**
+      path: /uc/**
       sensitiveHeaders:
       service-id: cloud-account
     cloud-author:
