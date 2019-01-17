@@ -12,23 +12,23 @@ persistence:
       username: root
       password: root
     druid：
-    initialSize：10
-    minIdle=6
-    maxActive：50
-    maxWait：60000
-    timeBetweenEvictionRunsMillis：60000
-    minEvictableIdleTimeMillis：300000
-    validationQuery=SELECT 'x'
-    testWhileIdle：true
-    testOnBorrow：false
-    testOnReturn：false
-    poolPreparedStatements：false
-    maxPoolPreparedStatementPerConnectionSize：20
-    filters：wall,stat
+      initialSize：10
+      minIdle=6
+      maxActive：50
+      maxWait：60000
+      timeBetweenEvictionRunsMillis：60000
+      minEvictableIdleTimeMillis：300000
+      validationQuery=SELECT 'x'
+      testWhileIdle：true
+      testOnBorrow：false
+      testOnReturn：false
+      poolPreparedStatements：false
+      maxPoolPreparedStatementPerConnectionSize：20
+      filters：wall,stat
   plusConfig:
-    idType:0
-    dbColumnUnderline:true
-    isCapitalMode:true
+      idType:0
+      dbColumnUnderline:true
+      isCapitalMode:true
 
 
 
