@@ -1,4 +1,4 @@
-wwserver:
+server:
   port: 5004
 spring:
   application:
