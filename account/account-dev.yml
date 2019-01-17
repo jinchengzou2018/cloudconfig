@@ -12,10 +12,10 @@ persistence:
       username: root
       password: root
 mybatis-plus:
-    mapper-locations:mapper/*.xml
-    configuration:
-        use-column-label:true
-        auto-mapping-behavior:full
-        map-underscore-to-camel-case:true
+  mapper-locations: mapper/*.xml
+  configuration:
+        use-column-label: true
+        auto-mapping-behavior:  full
+        map-underscore-to-camel-case: true
 
 logging.level.org.springframework.security: DEBUG
