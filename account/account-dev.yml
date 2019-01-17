@@ -29,7 +29,4 @@ persistence:
         idType: 0
         dbColumnUnderline:  true
         isCapitalMode:  true
-
-
-
 logging.level.org.springframework.security: DEBUG
