@@ -25,10 +25,10 @@ persistence:
       poolPreparedStatements: false
       maxPoolPreparedStatementPerConnectionSize:  20
       filters:  wall,stat
- # plusConfig:
-  #    idType: 0
- #     dbColumnUnderline:  true
-   #   isCapitalMode:  true
+    plusConfig:
+        idType: 0
+        dbColumnUnderline:  true
+        isCapitalMode:  true
 
 
 
