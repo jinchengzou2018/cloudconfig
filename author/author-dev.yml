@@ -7,9 +7,13 @@ server:
 
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mxcg_cloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
     username: root
     password: root
-    url: jdbc:mysql://localhost/zoucloud?useSSL=false&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-
+    driver-class-name: com.mysql.jdbc.Driver
+  hikari:
+    minIdle: 10
+    idle-timeout: 10000
+    maximumPoolSize: 30
+    
 logging.level.org.springframework.security: DEBUG
