@@ -5,7 +5,13 @@ spring:
     url:jdbc:mysql://localhost/zoucloud?useSSL=false&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username:root
     password:root
+
+  application:
+    name:cloud-author
    
-    
- 
+server:
+  port:5005
+
+
+   
 logging.level.org.springframework.security: TRACE
