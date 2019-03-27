@@ -1,6 +1,8 @@
+server:
+  port: 5005
+
+
 spring:
- application:
-  name: cloud-author
   datasource:
   url: jdbc:mysql://localhost:3306/zoucloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
   username: root
@@ -11,7 +13,6 @@ spring:
   idle-timeout: 10000
   maximumPoolSize: 30
   
-server:
-  port: 5005
+
 
 logging.level.org.springframework.security: DEBUG
