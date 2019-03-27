@@ -13,8 +13,3 @@ spring:
     url: jdbc:mysql://localhost/zoucloud?useSSL=false&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
 
 logging.level.org.springframework.security: DEBUG
-security:
-  oauth2:
-    clientId: cloud
-    clientSecret: cloud
-    scope: webapp
